@@ -1,0 +1,29 @@
+.meal {
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+
+.meal_img {
+  border-radius: 8px;
+  border: 1px solid rgb(225, 219, 219);
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vh;
+  height: 50vh;
+}
+
+@media only screen and (max-width:1200px){
+  .meal_img {
+    width:100vh;
+  height: 100vh;  }
+}
+
+
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}

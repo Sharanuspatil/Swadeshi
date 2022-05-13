@@ -1,0 +1,111 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  
+  --first-color: #F2A20C;
+  --white-color: #E9EAEC;
+  --dark-color: #272D40;
+  --dark-color-lighten: #F2F5FF;
+
+  --body-font: 'Poppins', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+}
+
+#product{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content:center ; 
+}
+
+
+
+h1, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+
+
+.card {
+  width: 320px;
+  height: 450px;
+  background-color: var(--dark-color);
+  border-radius: 1rem;
+  padding: 4rem 2rem 0;
+  color: var(--white-color);
+  overflow-y: hidden;
+  margin: 10px;
+}
+
+.card__img {
+  position: relative;
+  height: 13rem;
+  width: 260px;
+  filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+}
+
+.card__data {
+ margin-top: 30px;
+}
+
+.card__title {
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+ 
+}
+
+.card__preci {
+  display: inline-block;
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+
+}
+
+.card__description {
+  font-size: var(--small-font-size);
+}
+
+.card__button {
+  display: block;
+  width: cover;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius:10px;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: 600;
+  transition: .2s;
+
+}
+
+.card__img
+ {
+  transition: .5s;
+}
+
+
+.card:hover .card__img {
+  transform: translate(0rem, -5rem) rotate(0deg);
+}
+
+
+
+.Product h2{
+  font-size: 40px;
+  text-align: center;
+  margin:20px;
+}
